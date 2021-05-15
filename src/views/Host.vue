@@ -46,7 +46,7 @@ export default {
       const { data } = await findStartedCars()
       data.data.startedCarList.forEach(item => {
         // eslint-disable-next-line eqeqeq
-        if (item.userNow == 1) {
+        if (item.userNow == 0) {
           item.text = `<div style="width:390px;color: black;background: red">${item.userName + '|' + item.userPhone + '|' + item.carStyle + '|' + item.carPlates + '|疲劳驾驶'}</div>`
           // item.text = item.userName + '|' + item.userPhone + '|' + item.carStyle + '|' + item.carPlates + '|疲劳驾驶'
           // item.label = { content: item.userName + '|' + item.userPhone + '|' + item.carStyle + '|' + item.carPlates + '|疲劳驾驶', offset: [40, 0] }
