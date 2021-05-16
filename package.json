@@ -10,6 +10,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "echarts": "^5.1.1",
+    "echarts-gl": "^2.0.4",
     "element-ui": "^2.15.0",
     "vue": "^2.6.11",
     "vue-amap": "^0.5.10",
@@ -33,6 +35,8 @@
     "eslint-plugin-vue": "^6.2.2",
     "less": "^4.1.1",
     "less-loader": "^7.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
     "vue-template-compiler": "^2.6.11"
   }
 }

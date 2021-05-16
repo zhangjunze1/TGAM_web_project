@@ -17,7 +17,7 @@
 
 <script>
 import { AMapManager, lazyAMapApiLoaderInstance } from 'vue-amap'
-import { centerLocation } from './centerLocation'
+// import { centerLocation } from './centerLocation'
 const amapManager = new AMapManager()
 export default {
   name: 'Amap',
@@ -54,11 +54,11 @@ export default {
         function: 'loadMap'
       })
       // 监控中心定位
-      centerLocation({
-        map: this.map,
-        complete: (val) => this.onComplete(val),
-        error: (val) => this.onError(val)
-      })
+      // centerLocation({
+      //   map: this.map,
+      //   complete: (val) => this.onComplete(val),
+      //   error: (val) => this.onError(val)
+      // })
     },
     onComplete (data) {
       const lng = data.position.lng
@@ -96,7 +96,7 @@ export default {
 <style>
 .amap-wrapper {
   width: 100%;
-  height: 610px;
+  height: 580px;
   float: right;
 }
 #host {

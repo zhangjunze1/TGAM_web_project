@@ -40,10 +40,7 @@
           <i class="el-icon-date"></i>
           <span slot="title">实时数据</span>
         </el-menu-item>
-        <el-menu-item index="/record">
-          <i class="el-icon-edit-outline"></i>
-          <span slot="title">疲劳记录</span>
-        </el-menu-item>
+
       </el-submenu>
     </template>
   </div>
