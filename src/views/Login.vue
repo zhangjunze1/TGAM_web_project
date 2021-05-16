@@ -121,11 +121,12 @@ export default {
   color: dimgray;
   -webkit-text-stroke: 1px black;
   letter-spacing: 0.04em;
-  background-color: #708090;
+  background-color: #FFFFFF;
   font-size: 50px;
   font-weight: bold;
   text-shadow: 1px -1px black, 2px -2px white;
   text-align: center;
+  opacity: 0.45;
 }
 
 .login_container {
@@ -187,5 +188,11 @@ export default {
       }
     }
   }
+}
+.login_container{
+  background: url(../assets/img/img_3.png) no-repeat;
+  background-size: 100% 770px;
+  overflow: hidden;
+  height: 100%;
 }
 </style>

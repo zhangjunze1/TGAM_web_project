@@ -65,7 +65,7 @@ export default {
       this.$router.push('/login')
     },
     change () {
-      this.$router.push('/main')
+      this.$router.push('/host')
     }
   }
 }
