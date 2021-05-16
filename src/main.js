@@ -9,12 +9,6 @@ import './assets/css/global.css'
 import axios from 'axios'
 // eslint-disable-next-line no-unused-vars
 import VueAMap from 'vue-amap'
-import echarts from 'echarts'
-import 'echarts-gl'
-import './assets/css/common.scss'
-import './assets/css/resetUi.scss'
-import 'echarts/extension/bmap/bmap'
-
 Vue.use(VueAMap)
 Vue.use(ElementUI)
 
@@ -25,7 +19,7 @@ VueAMap.initAMapApiLoader({
   v: '1.4.4',
   uiVersion: '1.0.11'
 })
-Vue.prototype.$echarts = echarts
+
 Vue.config.productionTip = false
 
 new Vue({
